@@ -5,7 +5,7 @@
   "author": "Gabriel Oliveira <diasdeoliveira12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "yarn eslint src --max-warnings=0",
+    "lint": "yarn eslint --max-warnings=0",
     "test": "jest"
   },
   "devDependencies": {
