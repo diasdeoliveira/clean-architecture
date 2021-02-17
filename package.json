@@ -5,7 +5,7 @@
   "author": "Gabriel Oliveira <diasdeoliveira12@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && tsc -p tsconfig-build.json",
+    "build": "rimraf dist && tsc -p tsconfig-build.json dist",
     "lint": "yarn eslint --max-warnings=0",
     "test": "jest",
     "test:watch": "yarn test --watch"
