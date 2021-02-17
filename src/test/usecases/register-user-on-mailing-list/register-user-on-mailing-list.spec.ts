@@ -1,5 +1,5 @@
 import { UserData } from '@/entities'
-import { UserRepository } from '@/usecases/register-user-on-mailing-list/ports'
+import { InMemoryUserRepository } from '@/usecases/register-user-on-mailing-list/repository'
 import { RegisterUserOnMailingList } from '@/usecases/register-user-on-mailing-list'
 import { InMemoryUserRepository } from '@test/usecases/register-user-on-mailing-list/repository'
 
