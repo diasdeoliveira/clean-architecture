@@ -6,6 +6,7 @@ const { pathsToModuleNameMapper } = require('ts-jest/utils')
 const { compilerOptions } = require('./tsconfig')
 
 module.exports = {
+  preset: '@shelf/jest-mongodb',
   // A list of paths to directories that Jest should use to search for files in
   roots: ['<rootDir>/test'],
   // The directory where Jest should output its coverage files
